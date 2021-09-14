@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Luas Bangun Aplikasi</string>
+
+    // TODO: 22/02/18
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="account">Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

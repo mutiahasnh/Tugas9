@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Menghitung Luas Segitiga" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alas"
+        android:id="@+id/TextView01" >
+    </TextView>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/txtAlas"
+        android:inputType="numberSigned|numberDecimal">
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tinggi"
+        android:id="@+id/TextView02" >
+    </TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/txtTinggi"
+        android:inputType="numberSigned|numberDecimal">
+    </EditText>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas"
+        android:id="@+id/btnHitung"
+        android:onClick="hitungLuas">
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luas"
+        android:id="@+id/TextView03">
+    </TextView>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/txtLuas"
+        android:editable="false">
+    </EditText>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Rumus Segitiga"
+        android:id="@+id/btnRumus"
+        android:onClick="Rumus">
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali ke Menu"
+        android:id="@+id/btnBack"
+        android:onClick="backtoMenu">
+    </Button>
+
+</LinearLayout>
+
